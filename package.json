@@ -1,7 +1,9 @@
 {
   "name": "censorlib",
   "scripts": {
-    "watch": "node ./scripts/build.js"
+    "watch": "node ./scripts/build.js",
+    "docs": "/home/swebot/.luarocks/bin/ldoc .",
+    "test": "/home/swebot/.luarocks/bin/busted test"
   },
   "author": "CENSOR_1337",
   "dependencies": {

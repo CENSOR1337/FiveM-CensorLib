@@ -1,0 +1,5 @@
+describe("Initial Test Suite", function()
+  it("should pass a basic assertion", function()
+    assert.is_true(true)
+  end)
+end)
